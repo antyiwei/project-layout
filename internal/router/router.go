@@ -3,13 +3,11 @@ package router
 import (
 	"github.com/gin-gonic/gin"
 
-	orderhandler "project-layout/internal/order/handler"
 	userhandler "project-layout/internal/user/handler"
 )
 
 type Handlers struct {
-	User  *userhandler.Handler
-	Order *orderhandler.Handler
+	User *userhandler.Handler
 }
 
 func Engine(h Handlers) *gin.Engine {
@@ -21,5 +19,4 @@ func Engine(h Handlers) *gin.Engine {
 func Register(r *gin.Engine, h Handlers) {
 	v1 := r.Group("/api/v1")
 	registerUserRoutes(v1, h.User)
-	registerOrderRoutes(v1, h.Order)
 }

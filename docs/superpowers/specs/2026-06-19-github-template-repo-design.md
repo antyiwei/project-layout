@@ -2,7 +2,7 @@
 
 **日期**：2026-06-19  
 **仓库**：`git@github.com:antyiwei/project-layout.git`  
-**状态**：待用户审阅
+**状态**：已批准 · 已实施
 
 ---
 

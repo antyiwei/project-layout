@@ -3,6 +3,8 @@
 > **前置阅读**：[version-1.0.md](version-1.0.md) 中的「方案一：标准企业级项目结构」
 >
 > **适用场景**：业务域增多、多人并行开发、改 A 域容易影响 B 域时，从「技术分层」演进为「按业务域拆分 + 共享内核」。
+>
+> **完整可运行示例**：见仓库 [`example/v2-full`](https://github.com/antyiwei/project-layout/tree/example/v2-full) 分支（含 user / order / payment / notification 四域）。
 
 ---
 
