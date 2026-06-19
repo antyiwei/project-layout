@@ -1,0 +1,8 @@
+server:
+  addr: ":8080"
+
+database:
+  dsn: "user:pass@tcp(127.0.0.1:3306)/app?charset=utf8mb4&parseTime=True"
+
+redis:
+  addr: "127.0.0.1:6379"
