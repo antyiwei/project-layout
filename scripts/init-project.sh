@@ -11,7 +11,9 @@ Usage: $(basename "$0") <new-module-path> [--yes] [--force]
 
 Example:
   $(basename "$0") github.com/antyiwei/my-api
-  $(basename "$0") github.com/antyiwei/my-api --yes
+  $(basename "$0") gitee.com/antyiwei/my-api
+  $(basename "$0") gitlab.com/acme-corp/my-api --yes
+  $(basename "$0") git.company.com/backend/my-api --yes
 
 Replaces module path "${OLD_MODULE}" with your new module path,
 then runs go mod tidy and go build ./...

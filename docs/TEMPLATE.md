@@ -33,11 +33,15 @@ git push -u origin example/v2-full
 
 ### Module 命名约定
 
-建议统一使用：
+module 路径与**目标 Git 仓库地址**对应（任意平台均可）：
 
 ```text
-github.com/antyiwei/<项目名>
+git@gitee.com:antyiwei/my-api.git     →  gitee.com/antyiwei/my-api
+git@github.com:acme/my-api.git        →  github.com/acme/my-api
+git@git.company.com:backend/my-api.git →  git.company.com/backend/my-api
 ```
+
+详见 [local-setup.md](local-setup.md)。
 
 ## 双分支说明
 
